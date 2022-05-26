@@ -1,0 +1,12 @@
+﻿Create DATABASE KitapDB
+Go
+Use KitapDB
+Go
+Create Table Kitaplar(KitapID int Identity Primary Key,
+					KitapAdi varchar(50),
+					YazarAdSoyad varchar(50))
+Go
+Insert Into Kitaplar values('Tutunamayanlar','Oguz Atay'),
+						   ('Cesur Yeni Dunya','Aldous Huxley'),
+						   ('1984','George Orwell'),
+						   ('Serenad','Zulfu Livaneli')
